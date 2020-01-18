@@ -180,8 +180,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn:hover {
-background-color: #fff;
-color: #fce38a;
+  background-color: #fff;
+  color: #fce38a;
 
 }
 
@@ -189,10 +189,11 @@ color: #fce38a;
 
 .slider {
   width: 100%;
-position: absolute;
-bottom: 0;
-left: 0;
-z-index: 1;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .slider__inner {
@@ -204,43 +205,41 @@ z-index: 1;
 
 .slider__item {
 
-width: 23%;
-padding: 20px 0;
-position: relative;
+  width: 23%;
+  padding: 20px 0;
+  position: relative;
 
-border-top: 3px solid #fff;
-opacity: .7;
-font-size: 18px;
-color: #fff;
-text-transform: uppercase;
+  border-top: 3px solid #fff;
+  opacity: .7;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
 
 }
 
 .slider__item.active {
 
-opacity: 1;
+  opacity: 1;
 
 }
 
 .slider__item.active::before{
 
-content: "";
-display: block;
-width: 70px;
-height: 3px;
-background-color: #f38181;
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f38181;
 
-position: absolute;
-top: -3px;
-left: 0;
-z-index: 1;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  z-index: 1;
 
 }
 
 .slider__num{
-
-
-font-size: 24px;
-font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
 
 }
