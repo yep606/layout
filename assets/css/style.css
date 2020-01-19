@@ -404,3 +404,15 @@ border-right: 1px solid #b5eae0;
 font-size: 14px;
 text-transform: uppercase;
 }
+
+/* Services */
+
+.services {
+display: flex;
+}
+
+.service__item {
+
+flex: 1 1 0;
+
+}
