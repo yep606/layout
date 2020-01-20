@@ -259,8 +259,14 @@ background-color: #e5e5e5;
 /* Section */
 
 .section {
-
   padding: 80px 0;
+}
+
+.section--devices {
+  padding-bottom: 0;
+  background: url("../images/devices/back_devices.jpg")
+  center no-repeat;
+  background-size: cover;
 
 }
 
@@ -452,5 +458,30 @@ display: flex;
 
   font-size: 15px;
   color: #999;
+
+}
+
+/* Devices */
+
+.devices {
+
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.devices__item {
+display:  block;
+
+}
+
+.devices__item--iphone {
+position: absolute;
+bottom: -80px;
+right: 0;
+z-index: 1;
+
 
 }
