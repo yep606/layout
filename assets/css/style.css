@@ -54,7 +54,7 @@ background-color: #e5e5e5;
   height: 100vh;
   min-height: 820px;
   position: relative;
-  
+
   background: url("..\\images\\intro.jpg") center no-repeat;
   background-size:  cover;
 
@@ -268,6 +268,7 @@ background-color: #e5e5e5;
 
 .section--devices {
   padding-bottom: 0;
+  margin-bottom: 40px;
   background: url("../images/devices/back_devices.jpg")
   center no-repeat;
   background-size: cover;
@@ -488,6 +489,107 @@ display: flex;
   z-index: 1;
 
 }
+
+/* We do */
+
+.wedo {
+
+  display: flex;
+
+}
+
+.wedo__item {
+
+  width: 50%;
+
+}
+
+/* Accordion */
+
+.accordion_item {
+
+  border: 1px solid #e5e5e5;
+
+}
+
+.accordion__header{
+
+padding: 15px 20px 15px 65px;
+position: relative;
+
+border-bottom: 1px solid #e5e5e5;
+
+}
+
+.accordion__header::after {
+
+  content: "";
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-top: 2px solid #ccc;
+  border-right:  2px solid #ccc;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 1;
+
+  transform: translateY(-50%)
+  rotate(-45deg);
+
+
+}
+
+.accordion__icon {
+
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  z-index: 1;
+
+  transform: translateY(-50%);
+
+
+
+}
+
+.accordion__title {
+
+  font-size: 14px;
+  color: 333;
+  text-transform: uppercase;
+
+}
+
+.accordion__content {
+
+display: none;
+padding: 15px 20px;
+font-size: 15px;
+color: #999;
+font-style: italic;
+font-weight: 300;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1230px) {
   /* Intro */
